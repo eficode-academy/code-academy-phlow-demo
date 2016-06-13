@@ -26,7 +26,8 @@ job("code-academy-phlow-demo-review") {
     }
   }
   steps {
-    gradle("bash test-python.sh")
+    shell("bash test-python.sh")
+    shell("bash test-c++.sh")
   }
   publishers {
     pretestedIntegration()
