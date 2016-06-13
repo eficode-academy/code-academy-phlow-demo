@@ -28,6 +28,7 @@ job("code-academy-phlow-demo-review") {
   steps {
     shell("bash test-python.sh")
     shell("bash test-c++.sh")
+    shell("bash test-java.sh")
   }
   publishers {
     pretestedIntegration()
