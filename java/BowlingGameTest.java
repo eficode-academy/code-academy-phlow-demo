@@ -11,7 +11,7 @@ public class BowlingGameTest extends TestCase {
     for (int i = 0; i < n; i++)
       g.roll(pins);
   }
-  
+  //commenttest
   public void testGutterGame() throws Exception {
     rollMany(20, 0);
     assertEquals(0, g.score());
