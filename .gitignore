@@ -1,5 +1,9 @@
 .gradle
 build/
+java/.idea/
+java/BowlingGame.iml
+java/src/
+
 
 # Ignore Gradle GUI config
 gradle-app.setting
