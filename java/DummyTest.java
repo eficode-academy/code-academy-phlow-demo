@@ -6,6 +6,6 @@ public class DummyTest {
     @Test
 	public void life_the_universe_and_everything() {
         int actual = Dummy.answer();
-        assertEquals(42, actual);
+        assertEquals(63, actual);
     }
 }
