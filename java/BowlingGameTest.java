@@ -7,4 +7,5 @@ public class BowlingGameTest extends TestCase {
       g.roll(0);
     assertEquals(0, g.score());
   }
+
 }
